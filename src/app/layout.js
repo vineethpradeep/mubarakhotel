@@ -17,6 +17,41 @@ const sourceSerif = Source_Serif_4({
   weight: ["400", "700"],
 });
 
+export const metadata = {
+  title: "Mubarak Family Restaurant",
+  description:
+    "Family-friendly dining and hospitality in Marthandam, Kanyakumari.",
+  keywords: [
+    "Restaurant",
+    "luxury restaurant",
+    "Mubarak Family Restaurant",
+    "Marthandam",
+    "Kanyakumari",
+    "Multi-cuisine",
+    "South Indian",
+    "Chinese",
+    "Arabic",
+    "Room bookings",
+    "Event bookings",
+    "Hotel",
+  ],
+  authors: [{ name: "Alameen Amaanullah" }],
+  openGraph: {
+    title: "Mubarak Family Restaurant",
+    description:
+      "Family-friendly dining and hospitality in Marthandam, Kanyakumari.",
+    url: "https://www.mubarakhotels.com",
+    images: ["/assets/img/mubarak_logo.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mubarak Family Restaurant",
+    description:
+      "Family-friendly dining and hospitality in Marthandam, Kanyakumari.",
+    images: ["/assets/img/mubarak_logo.png"],
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
