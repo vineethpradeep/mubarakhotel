@@ -8,10 +8,14 @@ export default function Footer() {
           {/* Footer Brand & Description */}
           <div className="col-lg-4">
             <div className="footer-content">
-              <a href="index.html" className="logo d-flex align-items-center">
+              <a
+                href="index.html"
+                className="logo d-flex justify-content-start justify-content-md-start justify-content-center mb-2"
+              >
                 <img
                   src="assets/img/mubarak_logo.png"
                   alt="Mubarak Hotel Logo"
+                  className="img-fluid"
                 />
               </a>
               <a href="/" className="logo d-flex align-items-center mb-4 mt-3">
