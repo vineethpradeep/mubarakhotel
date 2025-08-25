@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import "swiper/css";
 import "glightbox/dist/css/glightbox.min.css";
 import "./globals.css";
+
 import TemplateScripts from "@/components/utils/TemplateScripts";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
@@ -18,7 +19,7 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata = {
-  title: "Mubarak Family Restaurant",
+  title: "Mubarak Family Restaurant | Marthandam, Kanyakumari",
   description:
     "Family-friendly dining and hospitality in Marthandam, Kanyakumari.",
   keywords: [
@@ -36,8 +37,11 @@ export const metadata = {
     "Hotel",
   ],
   authors: [{ name: "Alameen Amaanullah" }],
+  icons: {
+    icon: "/assets/img/favicon.ico",
+  },
   openGraph: {
-    title: "Mubarak Family Restaurant",
+    title: "Mubarak Family Restaurant | Marthandam, Kanyakumari",
     description:
       "Family-friendly dining and hospitality in Marthandam, Kanyakumari.",
     url: "https://www.mubarakhotels.com",
@@ -45,7 +49,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mubarak Family Restaurant",
+    title: "Mubarak Family Restaurant | Marthandam, Kanyakumari",
     description:
       "Family-friendly dining and hospitality in Marthandam, Kanyakumari.",
     images: ["/assets/img/mubarak_logo.png"],
