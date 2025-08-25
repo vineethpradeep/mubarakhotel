@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  assetPrefix: "/",
+  basePath: "/mubarakhotel",
+  assetPrefix: "/mubarakhotel/",
   trailingSlash: true,
 };
-
-module.exports = nextConfig;
