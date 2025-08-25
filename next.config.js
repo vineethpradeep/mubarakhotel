@@ -5,3 +5,5 @@ const nextConfig = {
   assetPrefix: "/mubarakhotel/",
   trailingSlash: true,
 };
+
+module.exports = nextConfig;
