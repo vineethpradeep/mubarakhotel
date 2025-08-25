@@ -1,10 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  //   output: "export",
+  //   assetPrefix: "/",
+  //   trailingSlash: true,
+  //   experimental: {
+  //     appDir: true,
+  //   },
   output: "export",
-  assetPrefix: "/",
-  experimental: {
-    appDir: true,
-  },
+  basePath: "/mubarakhotel",
+  assetPrefix: "/mubarakhotel/",
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
