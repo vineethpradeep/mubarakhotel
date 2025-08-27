@@ -41,7 +41,8 @@ export default function Location() {
                 title="Our Location"
                 content={
                   <p>
-                    Mubarak Hotel, SH 90, Marthandam, Tamil Nadu 629165, India
+                    2-76-A2, Safiya Complex, Main Road, Marthandam, KK District,
+                    Tamilnadu - 629165, India
                   </p>
                 }
                 delay={300}

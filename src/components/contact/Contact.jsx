@@ -29,14 +29,14 @@ export default function Contact() {
             icon="bi-geo-alt"
             title="Our Address"
             lines={[
-              "Mubarak Hotel, SH 90, Marthandam, Tamil Nadu 629165, India",
+              "2-76-A2, Safiya Complex, Main Road, Marthandam, KK District, Tamilnadu - 629165, India",
             ]}
           />
           <ContactInfoBox
             delay={200}
             icon="bi-envelope"
             title="Email Address"
-            lines={["info@hotelmubarak.com", "contact@hotelmubarak.com"]}
+            lines={["mubarakhotels@yahoo.co.in"]}
           />
           <ContactInfoBox
             delay={300}

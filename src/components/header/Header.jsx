@@ -8,7 +8,9 @@ export default function Header() {
         <div className="container d-flex justify-content-center justify-content-md-between">
           <div className="contact-info d-flex align-items-center">
             <i className="bi bi-envelope d-flex align-items-center">
-              <a href="mailto:contact@mubarak.com">contact@mubarak.com</a>
+              <a href="mailto:mubarakhotels@yahoo.co.in">
+                mubarakhotels@yahoo.co.in
+              </a>
             </i>
             <i className="bi bi-phone d-flex align-items-center ms-4">
               <span>+91 4651 270 999</span>

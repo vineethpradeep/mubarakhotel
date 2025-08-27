@@ -50,7 +50,9 @@ export default function Footer() {
                 icon="bi-geo-alt"
                 content={
                   <>
-                    Mubarak Hotel, SH 90, Marthandam
+                    2-76-A2, Safiya Complex,
+                    <br />
+                    Main Road, Marthandam, KK District,
                     <br />
                     Tamil Nadu 629165, India
                   </>
@@ -58,7 +60,10 @@ export default function Footer() {
               />
 
               <ContactItem icon="bi-telephone" content="+91 4651 270 999" />
-              <ContactItem icon="bi-envelope" content="info@hotelmubarak.com" />
+              <ContactItem
+                icon="bi-envelope"
+                content="mubarakhotels@yahoo.co.in"
+              />
             </div>
           </div>
         </div>
